@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+  }
+  
+  nav {
+    background-color: red;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+  }
+  
+  nav li {
+    margin-right: 310px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: -1000px;
+  }
+  
+  header img {
+    width: 200px;
+    height: auto;
+  }
+  
+  section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 150px 20px;
+  }
+  
+  .categorias {
+    background-color: rgb(255, 3, 3); /* trocando a cor de fundo para preto */
+      margin-left: 300px;
+      padding: 10px 100px;
+    
+  }
+  
+  .categorias h2 {
+    margin-bottom: 100px;
+  }
+  
+  .categorias ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .categorias li {
+    margin-right: 90px;
+  }
+  
+  .categorias a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  .destaques {
+    background-color: rgb(3, 3, 3); /* trocando a cor de fundo para vermelho */
+  }
+  
+  .destaques h2 {
+    margin-bottom: 20px;
+  }
+  
+  .filme {
+    display: inline-block;
+    width: 200px; /* Largura fixa */
+    margin-right: 20px;
+  }
+  
+  .destaque h2 {
+    margin-bottom: 20px;
+    position: relative;
+    animation-name: move-text;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation: bounce 0.5s ease-in-out;
+  }
+  
+  @keyframes move-text {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(20px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  .filme img {
+    width: 100%;
+    height: auto;
+  }
+
+  .filme h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+    cursor: pointer; /* adicionando a propriedade cursor */
+  }
+  
+  .filme h3 a {
+    color: inherit; /* herdando a cor do texto do elemento pai */
+    text-decoration: none; /* removendo a decoração de texto */
+    display: block; /* tornando o link um elemento block para ocupar todo o espaço do h3 */
+    height: 100%; /* definindo uma altura para ocupar todo o espaço do elemento pai */
+  }
+  
+  
+  
+  .fil
+  
